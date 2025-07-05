@@ -1,0 +1,13 @@
+# Core dependencies for RGB-D and LiDAR simulation
+torch>=1.12.0
+torchvision>=0.13.0
+opencv-python>=4.5.0
+numpy>=1.21.0
+tqdm>=4.64.0
+
+# Additional dependencies for MiDaS model
+timm>=0.6.0
+Pillow>=8.3.0
+
+# Optional: For CUDA support (uncomment if using GPU)
+# torch-audio>=0.12.0  # May be required for some torch.hub models 
